@@ -3,7 +3,7 @@
 cd /home/ubuntu
 
 sudo apt-get update
-sudo apt-get install virtualenv python2.7 python-pip
+sudo apt-get install virtualenv python2.7 python-pip -y
 virtualenv venv
 source venv/bin/activate
 pip install Flask
